@@ -18,6 +18,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "exports": {
+    "./config": "./eslint/config"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -40,6 +43,7 @@
     "@eslint/js": "^8.57.1",
     "eslint": "^8.57.1",
     "eslint-config-react-app": "^7.0.1",
+    "eslint-define-config": "^2.1.0",
     "eslint-plugin-react": "^7.37.5",
     "globals": "^17.14.0"
   }
