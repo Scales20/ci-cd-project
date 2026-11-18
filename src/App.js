@@ -31,7 +31,12 @@ function App() {
   }, [number5, number6])
 
   useEffect(() => {
-    let sum = number7 / number8;
+    let sum = 0;
+    if (number8 != 0 ) {
+      sum = number7 / number8;
+    } else {
+      sum = 0;
+    }
     setDivisionResult(sum);
   }, [number7, number8])
 
