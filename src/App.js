@@ -18,22 +18,22 @@ function App() {
   useEffect(() => {
     let sum = number1 + number2;
     setAdditionResult(sum);
-  })
+  }, [number1, number2])
 
   useEffect(() => {
     let sum = number3 - number4;
     setSubtractionResult(sum);
-  })
+  }, [number3, number4])
 
   useEffect(() => {
     let sum = number5 * number6;
     setMultiplicationResult(sum);
-  })
+  }, [number5, number6])
 
   useEffect(() => {
     let sum = number7 / number8;
     setDivisionResult(sum);
-  })
+  }, [number7, number8])
 
   return (
     <div className="App">
