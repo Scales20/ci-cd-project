@@ -14,7 +14,6 @@ function App() {
   const [subtractionResult, setSubtractionResult] = useState("");
   const [multiplicationResult, setMultiplicationResult] = useState("");
   const [divisionResult, setDivisionResult] = useState("");
-  const [dvisionResult, setDvisionResult] = useState("");
 
   useEffect(() => {
     let sum = number1 + number2;
