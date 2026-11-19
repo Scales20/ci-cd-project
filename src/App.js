@@ -44,7 +44,7 @@ function App() {
     <div className="App">
       <h1>Calculation app</h1>
 
-      <p>This app functions as a simple calculator, which allows basic arithmetic; more advanced functions, such as squaring, cubing, etc. and the nth root of numbers, will be implemented.</p>
+      <p>This app functions as a simple calculator, which allows basic arithmetic; more advanced functions, such as squaring, cubing, etc. and the nth root of numbers, will be implemented later on.</p>
 
       <b>Addition:</b>
       <form id="addition">
