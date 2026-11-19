@@ -42,3 +42,11 @@ jobs:
           exit-code: 1
           ignore-unfixed: true
           severity: "CRITICAL,HIGH"
+  rollback:
+    runs-on: ubuntu-latest
+    if: failure()
+    steps:
+    - name: Revert commit when it contains errors
+      shell: bash
+      run:
+        git revert HEAD
