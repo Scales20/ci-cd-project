@@ -49,4 +49,4 @@ jobs:
     - name: Revert commit when it contains errors
       shell: bash
       run:
-        git revert HEAD
+        git status
