@@ -48,6 +48,6 @@ jobs:
     steps:
     - name: Revert commit when it contains errors
       shell: bash
-      working-directory: C:/Users/niels/HVA/Social Impact Apps
+      working-directory: C:/Users/niels/HVA/Jaar 4/Social Impact Apps/ci-cd-project
       run:
         git status
