@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [22.x, 24.x, 26.x]
+        node-version: [26.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -48,6 +48,6 @@ jobs:
     steps:
     - name: Revert commit when it contains errors
       shell: bash
-      working-directory: ./ci-cd-app
+      working-directory: C:/Users/niels/HVA/Social Impact Apps
       run:
         git status
