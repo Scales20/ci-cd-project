@@ -44,7 +44,7 @@ jobs:
           severity: "CRITICAL,HIGH"
   rollback:
     runs-on: ubuntu-latest
-    if: failure()
+    if: ${{ needs.build.result != 'success' }}
     steps:
     - name: Revert commit when it contains errors
       shell: bash
